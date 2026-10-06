@@ -328,21 +328,21 @@ export default function App() {
       {/* Metrics Section — Matching user screenshot with punchy bold badges */}
       <section className="w-full px-6 md:px-12 lg:px-16 py-16 border-t border-black/10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center w-full">
-          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-black/10 shadow-sm flex flex-col items-center justify-center">
-            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#0a0618] tracking-tight">99.8%</h4>
-            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold">Client Satisfaction</p>
+          <div className="p-8 sm:p-10 rounded-tl-[40px] rounded-br-[40px] rounded-tr-[18px] rounded-bl-[18px] bg-white border border-black/10 hover:border-[#9333ea]/50 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group cursor-default">
+            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#0a0618] tracking-tight group-hover:scale-105 transition-transform">99.8%</h4>
+            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold group-hover:text-[#9333ea] transition-colors">Client Satisfaction</p>
           </div>
-          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-black/10 shadow-sm flex flex-col items-center justify-center">
-            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#9333ea] tracking-tight">140+</h4>
-            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold">Projects Launched</p>
+          <div className="p-8 sm:p-10 rounded-tr-[40px] rounded-bl-[40px] rounded-tl-[18px] rounded-br-[18px] bg-white border border-black/10 hover:border-[#9333ea]/50 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group cursor-default">
+            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#9333ea] tracking-tight group-hover:scale-105 transition-transform">10+</h4>
+            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold group-hover:text-[#9333ea] transition-colors">Projects Launched</p>
           </div>
-          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-black/10 shadow-sm flex flex-col items-center justify-center">
-            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#0a0618] tracking-tight">12x</h4>
-            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold">Average ROI Boost</p>
+          <div className="p-8 sm:p-10 rounded-tl-[36px] rounded-bl-[36px] rounded-tr-[20px] rounded-br-[20px] bg-white border border-black/10 hover:border-[#9333ea]/50 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group cursor-default">
+            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#0a0618] tracking-tight group-hover:scale-105 transition-transform">12x</h4>
+            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold group-hover:text-[#9333ea] transition-colors">Average ROI Boost</p>
           </div>
-          <div className="p-8 sm:p-10 rounded-3xl bg-white border border-black/10 shadow-sm flex flex-col items-center justify-center">
-            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#9333ea] tracking-tight">24/7</h4>
-            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold">Dedicated Support</p>
+          <div className="p-8 sm:p-10 rounded-tr-[36px] rounded-br-[36px] rounded-tl-[20px] rounded-bl-[20px] bg-white border border-black/10 hover:border-[#9333ea]/50 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col items-center justify-center group cursor-default">
+            <h4 className="text-5xl sm:text-6xl lg:text-7xl font-black text-[#9333ea] tracking-tight group-hover:scale-105 transition-transform">24/7</h4>
+            <p className="text-xs sm:text-sm text-[#0a0618]/70 mt-3 uppercase tracking-wider font-extrabold group-hover:text-[#9333ea] transition-colors">Dedicated Support</p>
           </div>
         </div>
       </section>
