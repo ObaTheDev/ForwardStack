@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f8f9fd;
+    color: #0b0718;
+    font-family: -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom glow & glass effects */
+.glow-purple {
+  filter: drop-shadow(0 0 45px rgba(168, 85, 247, 0.35));
+}
